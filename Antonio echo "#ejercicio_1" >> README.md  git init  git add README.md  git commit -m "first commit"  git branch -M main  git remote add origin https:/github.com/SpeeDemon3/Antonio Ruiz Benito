@@ -1,0 +1,34 @@
+public class Main {
+
+
+
+public static void main(String[] args) {
+    int resultado;
+    resultado =  suma(3, 4, 5);
+        System.out.println("El resultado de la suma es: " + resultado + ".");
+
+
+        Coche myCoche = new Coche();
+        myCoche.AñadirPuerta();
+        System.out.println("Las puertas del coche son : " + myCoche.puerta + ".");
+
+
+    }
+public static int suma(int x, int y, int z) {
+        return x + y + z;
+
+    }
+    
+
+static class Coche{
+    public int puerta = 5;
+
+    public void AñadirPuerta() {
+        this.puerta++;
+
+
+    }
+
+  }
+
+}
